@@ -1,4 +1,4 @@
-# Wine Quality Classification 🍷
+# Wine Quality Classification 
 
 **Tech Challenge — Fase 2 | POSTECH Data Analytics**
 
@@ -11,7 +11,7 @@ partir de suas características físico-químicas, transformando o problema em u
 
 ---
 
-## 📊 Resultado principal
+##  Resultado principal
 
 | Modelo | ROC-AUC | Acurácia | Precisão | Recall | F1 |
 |---|---|---|---|---|---|
@@ -30,7 +30,7 @@ partir de suas características físico-químicas, transformando o problema em u
 
 ---
 
-## 📁 Estrutura do repositório
+## Estrutura do repositório
 
 ```
 wine-quality-classification/
@@ -55,7 +55,7 @@ wine-quality-classification/
 
 ---
 
-## 🚀 Como executar
+## Como executar
 
 ```bash
 # 1. Criar ambiente e instalar dependências
@@ -74,7 +74,7 @@ jupyter notebook notebooks/wine_quality_analysis.ipynb
 
 ---
 
-## 🔬 Metodologia
+## Metodologia
 
 1. **Compreensão do problema** — binarização da nota de qualidade.
 2. **EDA** — distribuições, correlações justificadas, detecção de outliers (IQR),
@@ -89,7 +89,7 @@ jupyter notebook notebooks/wine_quality_analysis.ipynb
 
 ---
 
-## ⚠️ Decisões técnicas relevantes
+## Decisões técnicas relevantes
 
 - **Duplicatas removidas** considerando apenas as features (não o `Id`), para evitar
   que a mesma amostra apareça em treino e teste (vazamento de dados).
@@ -100,7 +100,7 @@ jupyter notebook notebooks/wine_quality_analysis.ipynb
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 Wine Quality Dataset (Kaggle) — 1.143 amostras, 11 variáveis físico-químicas +
 nota de qualidade. Após limpeza: 1.018 amostras únicas.
